@@ -63,6 +63,7 @@ end
 
 group :development do
   gem 'rubocop', require: false
+  gem 'listen'
   gem 'better_errors'
   gem 'binding_of_caller'
   gem 'letter_opener'

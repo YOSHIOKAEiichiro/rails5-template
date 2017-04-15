@@ -1,12 +1,12 @@
 version: '2'
 services:
-  web:
-    container_name: web
+  app:
+    container_name: app
     build: .
     ports:
       - '3000:3000'
     volumes:
-      - .:/usr/src/web
+      - .:/usr/src/sampleapp
     links:
       - db
   db:
